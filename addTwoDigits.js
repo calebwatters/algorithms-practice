@@ -4,4 +4,4 @@ function twoDigits(n) {
     return result
 }
 
-console.log(twoDigits("15"))
+console.log(twoDigits("15"));
