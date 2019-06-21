@@ -12,8 +12,8 @@ function validTime(t) {
     } else {
        return true
     }
-
 }
+//weird error on spliting on ':' 
 
 console.log(validTime("13:58"))
 
