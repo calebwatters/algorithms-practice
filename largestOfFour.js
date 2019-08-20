@@ -12,9 +12,9 @@
 // }
 
 function largestOfFour(array) {
-    let maxNum = 0;
     results = [];
     for(let i = 0; i < array.length; i++) {
+        let maxNum = array[i][0]
         let nestedArray = array[i]
         for(let j = 0; j < nestedArray.length; j++) {
             if (nestedArray[j] > maxNum) {

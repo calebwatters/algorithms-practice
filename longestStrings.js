@@ -10,6 +10,7 @@ function longestStrings(arr) {
     for (let j = 0; j < arr.length; j++) {
         if (arr[j].length == lgth) {
             result.push(arr[j])
+            break
         }
     }
   
