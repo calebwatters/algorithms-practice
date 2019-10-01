@@ -7,4 +7,5 @@ preOrderPrint() {
     }
   }
   printChildren(currentNode);
+
 }
