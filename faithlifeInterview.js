@@ -24,7 +24,7 @@ function isLeapYear(year) {
 console.log(isLeapYear(1927));
 console.log(isLeapYear(2000));
 console.log(isLeapYear(2004));
-console.log(isLeapYear(1900));
+
 
 for (let i = 0; i < 2021; i++) {
     console.log("The year " + i + " is a leap year?: " + isLeapYear(i));
