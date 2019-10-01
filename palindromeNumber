@@ -1,0 +1,9 @@
+var isPalindrome = function(x) {
+    let test = x.toString()
+    for(let i = 0; i < test.length; i++) {
+        if(test[i] !== test[test.length - (i + 1)]) {
+            return false
+        }
+    }
+    return true
+};
