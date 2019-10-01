@@ -4,6 +4,6 @@ function leapYearCalc(year) {
 
 console.log(leapYearCalc(2000),
 leapYearCalc(1924),
-leapYearCalc(1900),
-leapYearCalc(1977))
+leapYearCalc(1900)
+
 
